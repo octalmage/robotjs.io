@@ -18,6 +18,11 @@ body {
     padding-top: 51px;
     -webkit-font-smoothing: antialiased;
 }
+
+img {
+    width: 100%;
+}
+
 body:not(.category-docs) p {
     margin-bottom: 30px;
 }
