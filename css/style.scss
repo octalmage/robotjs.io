@@ -111,6 +111,7 @@ h1.special {
             width: 99999999px;
             top: 50%;
             transform: translateY(-50%);
+            z-index: -1;
         }
 
         &:before { left: 100%; }
