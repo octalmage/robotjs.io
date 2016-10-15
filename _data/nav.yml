@@ -1,0 +1,4 @@
+main:
+    - { url: '/', text: 'Home' }
+    - { url: '/docs', text: 'Docs' }
+    - { url: 'https://github.com/octalmage/robotjs', text: 'Fork on GitHub' }

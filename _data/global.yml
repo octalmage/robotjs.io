@@ -1,0 +1,9 @@
+# Site Settings
+title: 'RobotJS'
+description: 'Node.js Cross Platform Desktop Automation. Control the mouse, keyboard, and read the screen.'
+url: 'http://robotjs.io' # the base hostname & protocol for your site
+footer_text: 'Licened under MIT. <a href="https://github.com/octalmage/robotjs.io">Submit corrections on GitHub</a>.'
+
+# Admin Settings
+admin_name: 'Jason Stallings'
+admin_email: 'jason@stallin.gs'

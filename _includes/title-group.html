@@ -1,0 +1,34 @@
+{% if page.featured_image or page.featured_video_id %}
+    <div class="topper">
+        {% if page.featured_image %}
+        <span class="img" style="background-image: url('{{ page.featured_image }}');">
+        {% endif %}
+
+        {% if page.featured_video_id %}
+        <iframe src="https://www.youtube.com/embed/{{ page.featured_video_id }}" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
+    </div>
+{% endif %}
+
+<div class="title-group">
+    <h1 class="special">
+        <span>
+        {% if page.title %}
+            {{ page.title }}
+        {% else if page.logo %}
+            <img class="img-responsive" src="{{page.logo}}">
+        {% else %}
+            {{ site.data.global.title }}
+        {% endif %}
+        </span>
+    </h1>
+    <p class="lead">
+        {% if page.lead_text %}
+            {{ page.lead_text }}
+        {% elsif post.lead_text %}
+            {{ post.lead_text }}
+        {% else %}
+            {{ site.data.global.description }}
+        {% endif %}
+    </p>
+</div>

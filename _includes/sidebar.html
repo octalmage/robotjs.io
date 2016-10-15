@@ -1,0 +1,6 @@
+<ul class="nav nav-pills nav-stacked" style="padding-top: 25px;">
+	<li role="presentation" {% if page.url == '/docs/' %}class="active"{% endif %}><a href="/docs/">Getting Started</a></li>
+	{% for post in site.categories['docs'] %}
+		<li role="presentation" {% if page.url == post.url %}class="active"{% endif %}><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
