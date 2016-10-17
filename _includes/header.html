@@ -66,7 +66,7 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     {% for item in site.data.nav.main %}
-                        <li>
+                        <li{% if item.url == page.url %} class="active"{% endif %}{% unless page.url == '/' %}{% if item.url contains '/docs/' %} class="active"{% endif %}{% endunless %}>
                             <a href="{{ item.url }}">{{ item.text }}</a>
                         </li>
                     {% endfor %}
