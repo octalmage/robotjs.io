@@ -26,6 +26,11 @@ img {
 body:not(.category-docs) p {
     margin-bottom: 30px;
 }
+
+body.home .not-home {
+    display: none;
+}
+
 section, header, footer, main, article, nav, aside { position: relative; }
 a {
     outline: none !important;
@@ -63,6 +68,11 @@ nav.navbar {
         &:hover i {
             color: rgb(255, 111, 111);
             transform: scale(1.35);
+        }
+
+        img {
+            height: 20px;
+            width: auto;
         }
     }
 }
