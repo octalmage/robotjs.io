@@ -42,6 +42,9 @@ timezone:      null
 quiet:    false
 defaults: []
 
+gems:
+  - jekyll-sitemap
+
 # Markdown Processors
 rdiscount:
   extensions: []
