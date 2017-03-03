@@ -16,4 +16,4 @@ It's that easy! npm will download one of the prebuilt [binaries](https://github.
 
 You can get npm [here](https://nodejs.org/en/download/) if you don't have it installed.
 
-If you need to build RobotJS, see the [building](#building) section. Instructions for [Electron](https://github.com/octalmage/robotjs/wiki/Electron).
+If you need to build RobotJS, see the [building](/docs/building) section. Instructions for [Electron](/docs/electron).
